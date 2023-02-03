@@ -135,6 +135,7 @@ body {
 }
 
 footer {
+  height: auto;
   font-size: 11px;
   text-align: center;
 }

@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/*General Styling*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 0.875rem;
+  background-color: hsl(30, 38%, 92%);
+
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
+
+.flex-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product {
+  display: grid;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+@media (min-width: 600px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
+  .product_content {
+    padding: 2rem;
+  }
+}
+
+.product_content {
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.product_category {
+  font-size: 0.8125rem;
+  letter-spacing: 6px;
+  text-transform: capitalize;
+}
+
+.product_title {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+}
+.product_price {
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+  color: hsl(158, 36%, 37%);
+}
+
+.product_original-price {
+  text-decoration: line-through;
+}
+
+.button {
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background-color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  font-size: 0.925rem;
+}
+
+.button[data-icon="shopping-cart"]::before {
+  content: "";
+  height: 16px;
+  width: 15px;
+  background-image: url(images/icon-cart.svg);
+}
+.button:is(:hover, :focus) {
+  background-color: hsl(158, 36%, 20%);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}

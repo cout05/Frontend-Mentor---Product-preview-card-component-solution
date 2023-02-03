@@ -7,7 +7,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [My process](#my-process) -[Acknowledgements](#acknowledgments)
+  -[Acknowledgements](#acknowledgments)
 
 ## Overview
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to use media queries for making the website reponsive, i find display grid useful for media queries to make things much easier to transition to one layout to another, im looking forward to learning more from it
+I learned how to use media queries for making the website reponsive, i find display grid useful for media queries to make things much easier to transition to one layout to another, I'm looking forward to learning more of it.
 
 ### Useful resources
 
@@ -35,4 +35,5 @@ I learned how to use media queries for making the website reponsive, i find disp
 
 ## Acknowledgments
 
-i would like to acknowlegde kevin powell from youtube, because that's where i learn how to use media querries and display grid, thanks to his i manage to finish this project and learn about making a responsive website and how to use display grid
+I would like to acknowlegde kevin powell from youtube, because that's where i learn how to use media querries and display grid, thanks to his i manage to finish this project and learn about making a responsive website and how to use display grid.
+
